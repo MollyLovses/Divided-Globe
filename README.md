@@ -26,6 +26,16 @@ To use the Three.js Earth Viewer:
 - Adjustable Subdivision Level: Control the level of detail by changing the subdivision level of the sphere.
 - GUI Controls: Easily adjust settings using the graphical user interface provided by dat.gui.
 
+# Installation!
+
+Ensure you have a compatible web browser and an internet connection to access the necessary dependencies from the provided URLs. To run the code locally:
+
+1. Clone this repository to your local machine.
+2. Install threejs in the directory: "npm install three".
+3. Install vite: "npm install vite".
+4. Open the HTML file in a vite localhost: "npx vite".
+5. Ensure an active internet connection to load dependencies via URLs.
+
 ## Dependencies
 
 - [Three.js](https://threejs.org/): A lightweight JavaScript 3D library with a very low level of abstraction.
