@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  	<link rel="stylesheet" href="../css/widgets.css" />
+  	<link rel="stylesheet" href="../css/main.css" />
+  	<link rel="stylesheet" href="../css/three.css" />
+  	<link rel="stylesheet" href="./css/style.css" />
+  	<link rel="icon" href="../src/icon.png">
+	<!--<link type="text/css" rel="stylesheet" href="main.css">-->
+    <title>ThreeJS Earth</title>
+  
+</head>
+
+<body>
+  
+  	<!-- Back Button-->
+  	<a href="../"><div class="back-button back-button-white">&#8619;</div></a>
+  
+  	<!-- Info-->
+  	<div id="info">info</div>
+  
+  	<!-- Title Widget-->
+  	<div class="widget-container">
+        <div class="arrow arrow-white" id="arrow" onclick="toggleWidget()"></div>
+        <div class="widget widget-black-transparent" id="widget" onclick="toggleWidget()">
+            <div class="widget-content widget-content-white">
+              	<p>ThreeJS Divided Earth Globe</p>
+            </div>
+        </div>
+  	</div>
+  
+  	<script src="../js/widgets.js"></script>
+    <script src="three.js" type="module"></script>
+  
+</body>
+</html>

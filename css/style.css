@@ -1,0 +1,17 @@
+/*=========================================================================================
+	Item Name: Divided Globe
+    Module: style.css
+	Version: 1.0
+	Author: Sergey Patokin
+    Last Update: 02.12.2024
+	Author URL: https://sergeyforever.online/
+===========================================================================================*/
+
+#info {
+  font-family: 'arial';
+  position: absolute;
+  top: 65px;
+  left: 10px;
+  font-size: 12px;
+  color: white;
+}
